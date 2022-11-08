@@ -37,7 +37,7 @@ const About = () => {
                 Comencé estudiando Ingeniería en computación donde tuve el
                 primer encuentro con un lenguaje de programación (C++), para
                 reforzar y en paralelo estuve cursando "La universidad de Java"
-                un curso de udemy intensivo de Java EE, luego un un Coding
+                un curso de udemy intensivo de Java EE, luego un Coding
                 Bootcamp de Plataforma 5 el cual me pareció perfecto, un
                 intensivo de mas de 800 hs de capacitación donde puedo
                 convertirme en programador Full Stack y ademas resaltar el
