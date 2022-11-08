@@ -1,0 +1,613 @@
+body {
+  font-family: "Fauna One", serif;
+  font-size: 20px;
+  background-color: #010001;
+}
+#footer {
+  background-color: hsla(180, 100%, 50%, 1);
+  color: #181818;
+  text-align: center;
+  margin-top: 300px;
+}
+footer {
+  background: var(--color-primary);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+footer a {
+  color: var(--color-bg);
+}
+
+.footer__logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.footer__socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
+}
+
+.footer__copyright {
+  margin-bottom: 4rem;
+  color: var(--color-bg);
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
+@media screen and (max-width: 1024px) {
+  footer {
+    margin-top: 9rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer__socials {
+    margin-bottom: 2.6rem;
+  }
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 412.5%;
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+h1 > small {
+  display: block;
+  color: white;
+}
+
+.logo {
+  margin-top: 150px;
+  color: hsla(180, 100%, 50%, 1);
+  font-size: 120px;
+}
+@media screen and (max-width: 980px) {
+  .logo {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .subLogo {
+    display: none;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.83);
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 240px;
+}
+@media screen and (max-width: 980px) {
+  .overlay {
+    padding-bottom: 96px;
+  }
+}
+
+#home {
+  background: url("./assets/jsimage.jpeg") no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.iconos {
+  color: hsla(180, 100%, 50%, 1);
+}
+.iconos :hover {
+  color: #ffffff;
+}
+
+/*SKILLS TRASITIONS*/
+
+.Iam {
+  font: normal 80px/100px Montserrat, sans-serif;
+  color: #999;
+}
+.Iam p {
+  height: 100px;
+  float: left;
+  margin-right: 0.3em;
+}
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 100px;
+  top: 10px;
+}
+.Iam .innerIam {
+  display: inline-block;
+  color: hsla(180, 100%, 50%, 0.5);
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+
+  /*animation*/
+  -webkit-animation: move 5s;
+  -moz-animation: move 5s;
+  -ms-animation: move 5s;
+  -o-animation: move 5s;
+  animation: move 5s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /*animation-delay*/
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@-moz-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@-o-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+
+/*SKILLS TRASITIONS ENDS*/
+
+/*TEXTO TRASITIONS*/
+
+.academy {
+  color: hsla(0, 100%, 50%, 1);
+}
+.title {
+  color: hsla(180, 100%, 50%, 1);
+  font-size: 80px;
+}
+
+@media screen and (max-width: 980px) {
+  .title {
+    font-size: 60px;
+    padding-bottom: 0px;
+  }
+}
+.subtitle {
+  color: gray;
+  font-size: 20px;
+}
+
+.aboutme {
+  color: white;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.skills {
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+  width: 100%;
+  background-color: #04aa6d;
+} /* Green */
+.css {
+  width: 100%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 100%;
+  background-color: #f44336;
+} /* Red */
+.php {
+  width: 100%;
+  background-color: #808080;
+} /* Dark Grey */
+
+p {
+  color: white;
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+.card {
+  background: #191c29;
+  max-width: 100%;
+  position: relative;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: rgb(88 199 250 / 0%);
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+.card:hover:before,
+.card:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  );
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: -2%;
+  animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  );
+  opacity: 1;
+  transition: opacity 0.5s;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+a {
+  color: #212534;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about__me {
+  width: 100%;
+  /* to get the container (background) resized equally in height & width: */
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+
+.about__me-image {
+  max-width: 120%;
+  max-height: 200%;
+  border-radius: 3rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  margin-left: 350px;
+}
+
+@media screen and (max-width: 980px) {
+  .about__me-image {
+    max-width: 150%;
+    transform: rotate(0deg);
+    max-height: 200%;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .aboutSubtitle {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .aboutResp {
+    display: none;
+  }
+}
+@media screen and (max-width: 980px) {
+  .subtitleAbout {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .navBar {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+}
+
+#skills {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+@media screen and (max-width: 980px) {
+  #skills {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  /* cursor: default; */
+}
+
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.about__card h5 {
+  font-size: 0.95rem;
+  color: var(--color-white);
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about__content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0%;
+  }
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about__card {
+    padding: 1.5rem;
+  }
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+}
