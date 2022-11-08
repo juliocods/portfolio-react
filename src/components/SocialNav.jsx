@@ -78,7 +78,7 @@ const SocialNav = () => {
               style={{ textDecoration: "none" }}
             >
               <Button variant="text" sx={{ color: "#00ffff" }}>
-                <Typography variant="h4">cv</Typography>
+                <Typography variant="h4">c</Typography>
               </Button>
             </Link>
           </Grid>
