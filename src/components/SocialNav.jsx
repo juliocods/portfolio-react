@@ -72,7 +72,7 @@ const SocialNav = () => {
           </Grid>
           <Grid xs={2}>
             <Link
-              href="https://drive.google.com/file/d/1YqXJmlNBDRiUyG1neo5eAq8PkrduBtdq/view"
+              href="https://drive.google.com/file/d/1y7lDocFkMCGLfxVgzAKZdNsvJhkY4uNR/view"
               color="inherit"
               target={"_blank"}
               style={{ textDecoration: "none" }}
